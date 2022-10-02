@@ -1,3 +1,23 @@
+h1 {
+  margin: 0;
+  padding: 20px 0;
+  color: #00539F;
+  text-shadow: 2px 3px 3px black;
+  text-align: center;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+p {
+  color: red;
+}
+
 body {
-    background: aqua;
+  width: 600px;
+  margin: 0 auto;
+  padding: 0 20px 20px 20px;
+  border: 5px solid black;
 }
