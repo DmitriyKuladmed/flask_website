@@ -6,18 +6,8 @@ h1 {
   text-align: center;
 }
 
-img {
-  display: block;
-  margin: 0 auto;
-}
-
-p {
-  color: red;
-}
 
 body {
-  width: 600px;
+  width: 1200px;
   margin: 0 auto;
-  padding: 0 20px 20px 20px;
-  border: 5px solid black;
 }
