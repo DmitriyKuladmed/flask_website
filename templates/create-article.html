@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block body %}
+    <h1>This is page for add some article</h1>
+    <form method="post">
+        <input name="title" id="title" class="container form-control" placeholder="Введите название статьи"><br>
+        <textarea name="intro" id="intro" class="container form-control" placeholder="Введите анонс"></textarea><br>
+        <textarea name="text" id="text" class="container form-control" placeholder="Введите основной текст"></textarea><br>
+        <div class="d-grid gap-2 col-6 mx-auto">
+            <input type="submit" class="btn btn-sussess" value="Отправить">
+        </div>
+    </form>
+{% endblock %}
