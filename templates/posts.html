@@ -9,11 +9,11 @@
       <h1>Все статьи на сайте</h1>
 
       {% for el in articles %}
-
-      <h2>{{ el.intro }}</h2>
-      <p>{{ el.text }}</p>
-
-
+      <div class="alert alert-info">
+        <h2>{{ el.title }}</h2>
+        <p><b>Дата: {{ el.data.date() }}</b></p>
+        <button class="btn btn-warning">Полная статья</button>
+      </div>
       {% endfor %}
   </div>
 {% endblock %}
